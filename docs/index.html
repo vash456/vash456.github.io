@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cannon Game</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <h1>Cannon Game</h1>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div class="controls">
+        <div class="power-slider">
+            <label for="power">Power:</label>
+            <input type="range" id="power" min="1" max="100" value="50">
+            <span id="powerValue">50</span>
+        </div>
+        <div class="buttons">
+            <button id="fireBtn">Fire</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <div id="feedback"></div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
